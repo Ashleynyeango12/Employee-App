@@ -1,0 +1,50 @@
+\hypertarget{employee_8h_source}{}\doxysection{employee.\+h}
+\label{employee_8h_source}\index{header/employee.h@{header/employee.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ EMPLOYEE\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ EMPLOYEE\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <QMainWindow>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <QObject>}}
+\DoxyCodeLine{00006\ \textcolor{comment}{//\#include\ <QSqlQueryModel>}}
+\DoxyCodeLine{00007\ \textcolor{comment}{//\#include\ <QBuffer>}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{comment}{//\#include\ <QtSql>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <QDebug>}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <QFileInfo>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <QSqlDatabase>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <QSqlQueryModel>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <QSqlQuery>}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ <QSqlError>}}
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ <QSqlRecord>}}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ <QSqlQueryModel>}}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ QT\_BEGIN\_NAMESPACE}
+\DoxyCodeLine{00020\ \textcolor{keyword}{namespace\ }Ui\ \{\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_employee}{Employee}};\ \}}
+\DoxyCodeLine{00021\ QT\_END\_NAMESPACE}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_employee}{Employee}}\ :\ \textcolor{keyword}{public}\ QMainWindow}
+\DoxyCodeLine{00024\ \{}
+\DoxyCodeLine{00025\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00028\ \ \ \ \ \mbox{\hyperlink{class_employee}{Employee}}(QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00029\ \ \ \ \ \mbox{\hyperlink{class_employee}{\string~Employee}}();}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00031\ \textcolor{keyword}{private}\ slots:}
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_pushButton\_clicked();}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_UpdateEmployee\_clicked();}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_AddEmployee\_clicked();}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00038\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00039\ \ \ \ \ QSqlDatabase\ mydb();}
+\DoxyCodeLine{00040\ }
+\DoxyCodeLine{00041\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00042\ \ \ \ \ Ui::Employee\ *ui;}
+\DoxyCodeLine{00043\ \};}
+\DoxyCodeLine{00044\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ EMPLOYEE\_H}}
+
+\end{DoxyCode}
